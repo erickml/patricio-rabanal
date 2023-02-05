@@ -1,0 +1,81 @@
+* {
+    /*outline: 1px solid red;*/
+}
+body{
+    background-image: url("./imagenes/fondito.jpg");
+    background-position: center;
+    background-size: cover;
+}
+header {
+    width: 100%;
+    height: 200px;
+}
+
+main {
+    width: 100%;
+    height: auto
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#titulo {
+    width: 30%;
+    height: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    color: white;
+
+}
+
+#descripccion {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    color: white;
+    
+}
+
+.titulo-video {
+    width: 20%;
+    height: 20px;
+    margin-top: 20px;
+    color: white;
+
+}
+
+.caja-de-video {
+    width: 30%;
+    height: 200px;
+
+}
+
+.contenedor-de-videos {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+
+#redes-sociales-contenedor, #formulario-contacto-contenedor {
+    width: 30%;
+    height: auto;
+    position: relative;
+}
+#copyright{
+    font-size: 8px;
+    position:absolute ;
+    bottom: 0;
+    color: white;
+    
+}

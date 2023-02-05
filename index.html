@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina web </title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/9b9c4a36af.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <h1 id="mi-titulo">Esta es mi primera pagina web</h1>
+
+    <p style="color: red;">En esta pagina web se mostraran algunas cosas q me gustan</p>
+
+    <p style="color: red;">como videos de futbol:</p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/R7tJkVvGyyg" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lXrNicwqUoI" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+
+    <h2 style="color: blue;">Tambien jugadas de valorant:</h2>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ndMR2fI3VsA" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rmLNMNSi_Vg" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+    <h4 style="color: rgb(0, 247, 255);">Tambien estan mis juegos favoritos como:</h4>
+    <button id="boton-juegos">Ver juegos</button>
+
+    <div id="bloque-imagenes" style="display: none;">
+        <img class="mi-imagen-de-juego" src="https://pbs.twimg.com/media/FjFh7PBVEAEw1YT?format=jpg&name=large">
+        <img class="mi-imagen-de-juego" src="https://i.blogs.es/8935db/lroyale/1366_2000.jpg">
+        <img class="mi-imagen-de-juego" src="https://supercell.com/_next/static/media/og_clashofclans.f3149338.jpg">
+        <img class="mi-imagen-de-juego" src="./imagenes/uno.jpg" alt="">
+        <img class="mi-imagen-de-juego"
+            src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt3f072336e3f3ade4/63096d7be4a8c30e088e7720/Valorant_2022_E5A2_PlayVALORANT_ContentStackThumbnail_1200x625_MB01.png"
+            alt="">
+    </div>
+
+    <br><br>
+
+    <!--
+        NOMBRE, APPELLIDO, MENSAJE Y UN BOTON ENVIAR
+    -->
+    <form action="">
+        <label class="labelblanco" for="">nombre:</label>
+        <input type="text" placeholder="escribe tu nombre">
+        <br><br>
+        <label class="labelblanco" for="">apellido:</label>
+        <input type="text" placeholder="escribe tu apellido">
+        <br><br>
+        <label class="labelblanco for="">correo:</label>
+        <input type=" email" placeholder="escribe tu correo">
+            <br><br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="dejame tu mensaje"></textarea>
+            <br><br>
+            <button>ENVIAR</button>
+    </form>
+
+    <footer class="pie-de-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="./imagenes/21601.png" alt="21601">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2 style="color: purple;">MIS REDES:</h2>
+                <P style="color: aqua;">FACEBOOK: patrick rlev</P>
+                <P style="color: aqua;">INSTAGRAM:@rlev.patrick</P>
+                <P style="color: aqua;">TWITEER:@PatrickBaneado</P>
+                <P style="color: aqua;">YOUTUBE:PatrickBaneado</P>
+            </div>
+            <div class="box">
+                <h2 style="color: purple;">SIGUEME:</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small style="color: white;"></small>
+        </div>
+    </footer>
+
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

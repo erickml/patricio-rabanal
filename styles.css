@@ -1,0 +1,29 @@
+
+#mi-titulo {
+  text-align: center;
+  color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.mi-imagen-de-juego {
+  width: 250px;
+  height: 250px;
+}
+
+.labelblanco {
+  color: purple;
+}
+
+.pie-pagina{
+  width: 100%;
+  
+}
+.pie-pagina .grupo-1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+}
